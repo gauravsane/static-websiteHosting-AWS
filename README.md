@@ -28,10 +28,11 @@ listen  443  ssl  http2;
 server_name digilateral.com www.domain.com;
 
 
-# 5]Test and reload the nginx configuration
-Test the nginx sudo nginx -t
-Upon success reload the nginx sudo systemctl reload nginx.service
-Now You can access the website on digilateral.com/pagename
+## Test and reload the nginx configuration 
+1. Test the nginx
+`sudo nginx -t`
+2. Upon success reload the nginx 
+`sudo systemctl reload nginx.service`
 
 
 
