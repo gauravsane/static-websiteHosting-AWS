@@ -28,7 +28,7 @@ listen  443  ssl  http2;
 server_name digilateral.com www.domain.com;
 
 
-## Test and reload the nginx configuration 
+## 5] Test and reload the nginx configuration 
 1. Test the nginx
 `sudo nginx -t`
 2. Upon success reload the nginx 
