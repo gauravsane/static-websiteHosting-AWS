@@ -1,7 +1,7 @@
 # 1] TO Get Backup From Server
 Remote → Local  rsync -avz -e "ssh -i /home/cloud/pem-file.pem" ubuntu@ip-address:/home/ubuntu/remote-dir /path/to/local/dir
 
-eg. for getting "static" folder from server to local system rsync -avz -e "ssh -i /home/cloud/digi-test.pem" ubuntu@13.235.109.226:/home/ubuntu/static
+eg. for getting "static" folder from server to local system rsync -avz -e "ssh -i /home/cloud/digi-test.pem" ubuntu@server-ip:/home/ubuntu/static
 
 # 2] Get backup from var/www 
 = First Move the file to the home 
